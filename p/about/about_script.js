@@ -1,15 +1,16 @@
 var imgs = [];
 var assets_loc = "../../assets/photos/";
 
-imgs[0] = assets_loc+"_MG_2002-Edit.jpg";
-imgs[1] = assets_loc+"_DSC6959.jpg";
-imgs[2] = assets_loc+"_MG_1745.jpg";
-imgs[3] = assets_loc+"_MG_1830.jpg";
-imgs[4] = assets_loc+"_MG_1980.jpg";
-imgs[5] = assets_loc+"_MG_2002-Edit.jpg";
-imgs[6] = assets_loc+"_MG_2049.jpg";
+imgs[0] = assets_loc+"Edit 5.jpg";
+imgs[1] = assets_loc+"Edit-7-1_edited.jpg";
+imgs[2] = assets_loc+"IMG_20200115_123150_980.jpg";
+imgs[3] = assets_loc+"IMG_20200202_175649_931.jpg";
+imgs[4] = assets_loc+"IMG_20200206_002156_217.jpg";
+imgs[5] = assets_loc+"Screenshot_20191127-030555.png";
+imgs[6] = assets_loc+"vicshoot5.jpg";
 imgs[7] = assets_loc+"7.jpg";
 imgs[8] = assets_loc+"20-02-27_21.jpg";
+imgs[9] = assets_loc+"Screenshot_20191127-030600.png";
 
 var max = imgs.length;
 var min = 0;
