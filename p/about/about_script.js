@@ -1,5 +1,5 @@
 var imgs = [];
-var assets_loc = "mawebsite/assets/photos/";
+var assets_loc = "/assets/photos/";
 
 imgs[0] = assets_loc+"_MG_2002-Edit.jpg";
 imgs[1] = assets_loc+"_DSC6959.jpg";
