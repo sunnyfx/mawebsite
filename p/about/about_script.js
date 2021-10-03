@@ -8,8 +8,8 @@ imgs[3] = assets_loc+"_MG_1830.jpg";
 imgs[4] = assets_loc+"_MG_1980.jpg";
 imgs[5] = assets_loc+"_MG_2002-Edit.jpg";
 imgs[6] = assets_loc+"_MG_2049.jpg";
-imgs[5] = assets_loc+"7.jpg";
-imgs[5] = assets_loc+"20-02-27_21.jpg";
+imgs[7] = assets_loc+"7.jpg";
+imgs[8] = assets_loc+"20-02-27_21.jpg";
 
 var max = imgs.length;
 var min = 0;
