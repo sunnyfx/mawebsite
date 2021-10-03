@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+    <link rel="icon" href="../assets/photos/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/nav.css">
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
 
-.bgimg {
-  background-image: url('../assets/photos/Edit 5.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+        .bgimg {
+          background-image: url('../assets/photos/Edit 5.jpg');
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+          color: white;
+          font-family: "Courier New", Courier, monospace;
+          font-size: 25px;
+        }
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+        .topleft {
+          position: absolute;
+          top: 0;
+          left: 16px;
+        }
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+        .bottomleft {
+          position: absolute;
+          bottom: 0;
+          left: 16px;
+        }
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+        .middle {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
+        hr {
+          margin: auto;
+          width: 40%;
+        }
+    </style>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">SunnyFX</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="about/about.html">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>SunnyFX</p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>10 day left</p>
-  </div>
-</div>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+        <div class="bgimg">
+            <div class="middle">
+                <h1>COMING SOON</h1>
+                <hr>
+                <p>X days left</p>
+            </div>
+        </div>
 
-</body>
+    </body>
 </html>
