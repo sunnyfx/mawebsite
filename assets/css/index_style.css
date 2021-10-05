@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'StrangerCreature';
-  src: url("./../assets/fonts/stranger-creature-font/StrangerCreature-MVpBr.ttf");
+  src: url("./../fonts/stranger-creature-font/StrangerCreature-MVpBr.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-html,body{background-color:#1A1919;font: 'StrangerCreature' !important;}
+html,body{background-color:#1A1919;font-family: 'StrangerCreature' !important;}
 
 .pagination {
   position: absolute !important;
