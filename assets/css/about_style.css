@@ -20,7 +20,7 @@
   font-weight: normal;
 }
 
-html,body{background-color:#1e1e22;font-family: 'StrangerCreature' !important;}
+html,body{background-color:#1e1e22; font-family: 'StrangerCreature' !important;}
 
 .wrapper{
   display:flex;
