@@ -96,13 +96,13 @@ html,body {
 
 /* Media qurey section */
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 720px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 500px) {
     .navTrigger {
         display: block;
         padding-top: 30px;
