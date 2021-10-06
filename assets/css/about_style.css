@@ -68,7 +68,7 @@ html,body{background-color:#1e1e22; font-family: 'StrangerCreature' !important;}
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) {
     .wrapper {
       flex-direction: column;
     }
