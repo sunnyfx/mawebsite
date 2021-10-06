@@ -67,3 +67,21 @@ html,body{background-color:#1e1e22; font-family: 'StrangerCreature' !important;}
   font-size: 20px;
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+      flex-direction: column;
+    }
+    .placeholder {
+      order: 1;
+    }
+
+    .bio_box{
+     order: 2;
+     width: 80%;
+     height: 40%;
+     margin-top: 0;
+     margin-bottom: 20%;
+     left: 10px;
+    }
+}
