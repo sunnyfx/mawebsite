@@ -38,6 +38,19 @@
               vision in my work and how it makes my viewers feel when they see it.</div>
           <!-- partial -->
         </div>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script><script  src="./about_script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src="./about_script.js"></script>
+        <script src="./../../script.js"></script>
+        <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+        </script>
     </body>
 </html>
